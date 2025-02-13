@@ -1,11 +1,11 @@
 from elastic_modulus import Modulo_elasticidad
 
 def main():
-    no_experimento = 7
+    no_experimento = 3
     #-----RUTAS-----
-    ruta_modelo = 'RUTA DEL PROYECTO\\yolov5\\runs\\train\\exp\\weights\\best.pt'
-    ruta_video = f'Experimentos/exp{no_experimento}/exp{no_experimento} - video.mp4'
-    carpeta_salida = f"Experimentos/exp{no_experimento}/resultados"
+    ruta_modelo = '../EMOCnet/best.pt'
+    ruta_video = f'../Experimentos/exp{no_experimento}/exp{no_experimento} - video.mp4'
+    carpeta_salida = f"../Experimentos/exp{no_experimento}/resultados"
     #---------------
 
     #-----NOMBRES DE ARCHIVOS DE SALIDA-----
